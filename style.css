@@ -55,6 +55,7 @@ color:white;
    color: #00abf0;
 }
 .home-content {
+    margin-top: 60px;
     max-width: 650px;
     
 }
@@ -66,11 +67,12 @@ color:white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
-    padding:120px 10% ;
+    max-height: 80vh;
+    padding:90px 10% ;
     background: #081f29;
 }
 .home-img img{
+    margin-top: 50px;
     width: 240px; 
     height: 240px;
     border-radius: 50%;
@@ -97,8 +99,8 @@ color:white;
     transform: translate(-3px);
 }
 .about{
-    min-height: 100vh;
-    padding: 100px 10%;
+    max-height: 90vh;
+    padding: 60px 10%;
     color: white;
     background-color:#081f29;
 }
